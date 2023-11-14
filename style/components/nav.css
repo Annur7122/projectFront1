@@ -56,3 +56,15 @@
 .nav-right a:hover i{
     color: #bac34e;
 }
+
+@media(max-width: 1000px){
+    .nav-right{
+        display:none;
+    }
+}
+
+@media(max-width: 400px){
+    .nav-left p{
+        font-size: 15px;
+    }
+}
